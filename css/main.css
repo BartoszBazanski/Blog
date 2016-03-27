@@ -1,0 +1,39 @@
+.jumbotron {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background-image: url("../images/home-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .jumbotron .navigation {
+    width: 600px;
+    margin: 0;
+    list-style-type: none;
+    text-transform: uppercase;
+    overflow: auto;
+    float: right; }
+    .jumbotron .navigation li {
+      font-size: 12px;
+      width: 25%;
+      padding: 10px;
+      float: left; }
+      .jumbotron .navigation li a {
+        text-decoration: none;
+        color: white; }
+  .jumbotron h1 {
+    margin: 0;
+    font-size: 40px;
+    padding: 100px 0 10px 0; }
+  .jumbotron h4 {
+    margin: 0;
+    padding: 10px 0 100px 0; }
+
+* {
+  box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0; }
+
+/*# sourceMappingURL=main.css.map */
