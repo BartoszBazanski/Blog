@@ -1,0 +1,29 @@
+#post-container{
+    border-bottom: 1px solid lightgray;
+    .container {
+        width: 50%;
+        margin: 0 auto;
+        .post{
+            padding: 30px;
+            border-bottom: 1px solid lightgray;
+            h5{
+                font-size: 25px;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            .post-intro, .post-info {
+                color: gray;
+            }
+        }
+        .post-nav {
+            margin: 10px 0;
+            overflow: auto;
+            button{
+                padding: 10px;
+                text-transform: uppercase;
+                color: gray;
+                float: right;
+            }
+        }
+    }
+}

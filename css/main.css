@@ -1,3 +1,19 @@
+header .navigation {
+  width: 600px;
+  margin: 0;
+  list-style-type: none;
+  text-transform: uppercase;
+  overflow: auto;
+  float: right; }
+  header .navigation li {
+    font-size: 12px;
+    width: 25%;
+    padding: 10px;
+    float: left; }
+    header .navigation li a {
+      text-decoration: none;
+      color: white; }
+
 .jumbotron {
   color: white;
   font-weight: bold;
@@ -6,21 +22,6 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
-  .jumbotron .navigation {
-    width: 600px;
-    margin: 0;
-    list-style-type: none;
-    text-transform: uppercase;
-    overflow: auto;
-    float: right; }
-    .jumbotron .navigation li {
-      font-size: 12px;
-      width: 25%;
-      padding: 10px;
-      float: left; }
-      .jumbotron .navigation li a {
-        text-decoration: none;
-        color: white; }
   .jumbotron h1 {
     margin: 0;
     font-size: 40px;
@@ -28,6 +29,29 @@
   .jumbotron h4 {
     margin: 0;
     padding: 10px 0 100px 0; }
+
+#post-container {
+  border-bottom: 1px solid lightgray; }
+  #post-container .container {
+    width: 50%;
+    margin: 0 auto; }
+    #post-container .container .post {
+      padding: 30px;
+      border-bottom: 1px solid lightgray; }
+      #post-container .container .post h5 {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 10px; }
+      #post-container .container .post .post-intro, #post-container .container .post .post-info {
+        color: gray; }
+    #post-container .container .post-nav {
+      margin: 10px 0;
+      overflow: auto; }
+      #post-container .container .post-nav button {
+        padding: 10px;
+        text-transform: uppercase;
+        color: gray;
+        float: right; }
 
 * {
   box-sizing: border-box; }
