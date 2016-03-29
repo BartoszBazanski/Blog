@@ -2,6 +2,7 @@ header .navigation {
   width: 600px;
   margin: 0;
   list-style-type: none;
+  text-align: center;
   text-transform: uppercase;
   overflow: auto;
   float: right; }
@@ -18,7 +19,6 @@ header .navigation {
   color: white;
   font-weight: bold;
   text-align: center;
-  background-image: url("../images/home-bg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
@@ -29,29 +29,29 @@ header .navigation {
   .jumbotron h4 {
     margin: 0;
     padding: 10px 0 100px 0; }
+  .jumbotron#index {
+    background-image: url("../images/home-bg.jpg"); }
+  .jumbotron#about {
+    background-image: url("../images/about-bg.jpg"); }
+  .jumbotron#contact {
+    background-image: url("../images/contact-bg.jpg"); }
+  .jumbotron#sample {
+    background-image: url("../images/post-bg.jpg"); }
 
 #post-container {
   border-bottom: 1px solid lightgray; }
-  #post-container .container {
-    width: 50%;
-    margin: 0 auto; }
-    #post-container .container .post {
-      padding: 30px;
-      border-bottom: 1px solid lightgray; }
-      #post-container .container .post h5 {
-        font-size: 25px;
-        font-weight: bold;
-        margin-bottom: 10px; }
-      #post-container .container .post .post-intro, #post-container .container .post .post-info {
-        color: gray; }
-    #post-container .container .post-nav {
-      margin: 10px 0;
-      overflow: auto; }
-      #post-container .container .post-nav button {
-        padding: 10px;
-        text-transform: uppercase;
-        color: gray;
-        float: right; }
+  #post-container .container .post {
+    padding: 30px;
+    border-bottom: 1px solid lightgray; }
+    #post-container .container .post h5 {
+      font-size: 25px;
+      font-weight: bold;
+      margin-bottom: 10px; }
+    #post-container .container .post .post-intro, #post-container .container .post .post-info {
+      color: gray; }
+  #post-container .container .post-nav {
+    margin: 10px 0;
+    overflow: auto; }
 
 footer {
   padding: 35px 0; }
@@ -83,7 +83,35 @@ footer {
   footer p {
     text-align: center; }
 
-* {
-  box-sizing: border-box; }
+#aboutme {
+  padding: 50px; }
+  #aboutme p {
+    font-size: 18px;
+    padding: 35px 100px; }
+
+#contact-form {
+  padding: 35px 120px; }
+  #contact-form p {
+    padding: 35px 100px; }
+  #contact-form form {
+    margin: 0 100px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray; }
+    #contact-form form input, #contact-form form textarea {
+      width: 100%;
+      padding: 30px;
+      border: none;
+      border-bottom: 1px solid gray; }
+    #contact-form form button {
+      float: none;
+      color: black;
+      font-weight: bold;
+      margin: 30px; }
+
+button {
+  padding: 10px;
+  text-transform: uppercase;
+  color: gray;
+  float: right; }
 
 /*# sourceMappingURL=main.css.map */

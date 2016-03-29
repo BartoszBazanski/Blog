@@ -2,6 +2,12 @@
 @import "partials/jumbotron";
 @import "partials/posts";
 @import "partials/footer";
-* {
-    box-sizing: border-box;
+@import "partials/about";
+@import "partials/contact";
+
+button{
+    padding: 10px;
+    text-transform: uppercase;
+    color: gray;
+    float: right;
 }

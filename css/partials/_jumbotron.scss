@@ -2,7 +2,6 @@
     color: white;
     font-weight: bold;
     text-align: center;
-    background-image: url("../images/home-bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,5 +13,17 @@
     h4 {
         margin: 0;
         padding: 10px 0 100px 0;
+    }
+    &#index{
+        background-image: url("../images/home-bg.jpg");
+    }
+    &#about {
+        background-image: url("../images/about-bg.jpg");  
+    }
+    &#contact {
+        background-image: url("../images/contact-bg.jpg");  
+    }
+    &#sample {
+        background-image: url("../images/post-bg.jpg");  
     }
 }

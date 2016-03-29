@@ -1,0 +1,23 @@
+#contact-form {
+    padding: 35px 120px;
+    p {
+        padding: 35px 100px;
+    }
+    form {
+        margin: 0 100px;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+        input, textarea{
+            width: 100%;
+            padding: 30px;
+            border: none;
+            border-bottom: 1px solid gray;
+        }
+        button {
+            float: none;
+            color: black;
+            font-weight: bold;
+            margin: 30px;
+        }
+    }
+}
