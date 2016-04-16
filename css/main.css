@@ -98,6 +98,17 @@ footer {
       font-weight: bold;
       margin: 30px; }
 
+#post {
+  margin-top: 50px; }
+  #post figure {
+    width: 80%;
+    margin: 0 auto; }
+    #post figure img {
+      width: 100%; }
+    #post figure figcaption {
+      color: gray;
+      font-size: 14px; }
+
 button {
   padding: 10px;
   text-transform: uppercase;
